@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+}
+
+header {
+  padding: 10px 40px;
+  line-height: 0.5;
+}
+
+header h2 {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+}
+
+header h3 {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  position: relative;
+  left: 40px;
+}
+
+header h1 {
+  font-family: "Kalam", cursive;
+  font-size: 40px;
+  position: relative;
+  left: 70px;
+  color: crimson;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: skyblue;
+}
+
+.personal-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.personal-info img {
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.social-media div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.samp {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  display: block;
+}
+
+.social-media div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.social-media div a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-media div img {
+  background-color: white;
+  border-radius: 25px;
+}
+
+.social-media div button {
+  border: 3px solid white;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.facebook {
+  background-color: rgb(3, 155, 229);
+}
+
+.facebook button {
+  background-color: rgb(3, 155, 229);
+}
+
+.instagram {
+  background-color: rgb(245, 79, 82);
+}
+
+.instagram button {
+  background-color: rgb(245, 79, 82);
+}
+
+.x {
+  background-color: black;
+}
+
+.x button {
+  background-color: black;
+}
+
+.threads {
+  background-color: black;
+}
+
+.threads button {
+  background-color: black;
+}
+
+.linkedin {
+  background-color: rgb(0, 120, 212);
+}
+
+.linkedin button {
+  background-color: rgb(0, 120, 212);
+}
+
+.github {
+  background-color: black;
+}
+
+.github button {
+  background-color: black;
+}
